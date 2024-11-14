@@ -11,6 +11,6 @@ RUN echo 'app:app' | chpasswd
 
 RUN service ssh start
 
-EXPOSE 22
+EXPOSE 2200
 
 CMD ["/usr/sbin/sshd","-D"]
